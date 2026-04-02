@@ -1,7 +1,8 @@
 [package]
-name = "chip8-rust-emulator"
+name = "cli"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
 core = { path = "../core"}
+platform = { path = "../platform" }
